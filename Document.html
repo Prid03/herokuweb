@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .form_grp input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        width: 300px;
+        height: 30px;
+        margin: auto;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+
+    .form_grp input {
+        /* background-color: black; */
+        color: black;
+    }
+
+    ::-webkit-input-placeholder {
+        color: black;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: black;
+        padding: 4px 14px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: 'Ubuntu', sans-serif;
+        cursor: pointer;
+        height: 20px;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Enter Your Details Here:- </h1>
+        <form action="noaction.php">
+            <div class="form_grp">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form_grp">
+                <input type="number" name="" placeholder="Enter your age">
+            </div>
+            <div class="form_grp">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form_grp">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <div class="form_grp">
+                <input type="number" name="" placeholder="Phone no.">
+            </div>
+            <div class="form_grp">
+                <form action="abc.php">
+                    <input type="file" id="myFile" name="filename">
+
+                </form>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
